@@ -1,0 +1,86 @@
+.login-container{
+  background-color: #0D0D0D;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0px;
+}
+
+.login-container .div-form{
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 700px;
+  height: auto;
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.login-container input{
+  width: 600px;
+  height: 50px;
+  font: 30px Roboto;
+  color: #0D0D0D;
+  margin-top: 30px;
+  border: 0px;
+  border-radius: 8px; 
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.login-container .rodape{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-container a{
+  text-decoration: none;
+  font: 400 15px Roboto;
+  color: #F2F2F2;
+  transition: opacity 0.2s;
+}
+
+.login-container p{
+  font: 400 15px Roboto;
+  color: #FF1A1A;
+  cursor: default;
+}
+
+.login-container button{
+  width: 600px;
+  height: 50px;
+  font: 20px Roboto;
+  margin-top: 50px;
+  border-radius: 18px;
+  border: 0px;
+  background: #0D0D0D;
+  color: #F2F2F2;
+  transition: opacity 0.2s;  
+}
+
+.login-container #logo{
+  margin: 0 auto 20px auto;
+  font: 700 37px Roboto;
+  width: 225px;
+}
+
+#tag{
+  color: #F2F2F2;
+}
+
+#sistemas{
+  color: #595959;
+}
+
+.login-container a:hover{
+  opacity: 0.7;
+}
+
+.login-container button:hover{
+  opacity: 0.7;
+}
